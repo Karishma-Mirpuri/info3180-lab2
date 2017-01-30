@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<img src="{{ url_for('static', filename='IMG_6301.JPG') }}" alt="Picture of Kar-1">
+
+<div id = 'info'>
+    <h3>Karishma Mirpuri</h3>
+    <p>Today's date is {{ now }}</p>
+    <p id = 'top_border'><b>Username:</b> Kar-1</p>
+    <p><b>ID Number:</b> 620012345</p>
+    <p><b>Age:</b> 17</p>
+    <p><b>Gender:</b> Female</p>
+    <p id = 'top_border'>I am not a Star Wars fan.</p>
+</div>
+{% endblock %}

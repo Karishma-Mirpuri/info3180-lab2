@@ -1,3 +1,23 @@
 body {
     padding-top: 50px;
 }
+
+img{
+    float: left;
+    width: 400px;
+    height: 400px;
+    padding: 50px;
+}
+
+body div #info{
+    padding-top: 50px;
+    float: left;
+}
+
+h3{
+    background-color: #e0e0eb;
+}
+
+div p #top_border{
+    border-top: thin solid #d1d1e0;
+}
